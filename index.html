@@ -1,0 +1,211 @@
+<!--
+    Front End Page Script
+-->
+<!Doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Front End Responsive Web Page </title>
+    <link rel="stylesheet" href="dist/css/main.css"/>
+    <link rel="stylesheet" href="dist/css/mediaQueries.css"/>
+</head>
+
+<!-- Body-->
+<body>
+<div class="row">  
+<div class="container">
+  <div class="nav">
+    <!-- <img href="#" class="nav-logo-left" src="dist/img/23.png"/> -->OYODO
+      <ul class="nav-right">
+          <li class="active"><p>Home</p></li>
+            <li><p><a href="#">About US</a></p></li>
+            <li><p><a href="#">Services</a></p></li>
+            <li><p><a href="#">Gallery</a></p></li>
+            <li><p><a href="#">Contact Us</a></p></li>
+      </ul>
+                  <!--script-->
+          <script>
+            $("span.menu").click(function(){
+              $(".top-nav ul").slideToggle(500, function(){
+              });
+            });
+        </script>       
+
+  </div>
+
+
+<!-- Adding Nav used for mobile devices-->
+
+<div class="nav-mobile">       
+  <img src="dist/img/23.png" class="logo-mobile"/>
+            
+  <nav role="navigation">
+    <div id="menuToggle">
+    <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+    
+      <ul id="menu">
+        <a href="#"><li>Home</li></a>
+        <a href="#"><li>About Us</li></a>
+        <a href="#"><li>Services</li></a>
+        <a href="#"><li>Photo Galary</li></a>
+        <a href="#"><li>Contact Us</li></a>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+<!-- Heading container -->
+  <div id="heading-container">
+    <span id="text"> A Central Platform for every Kisaan,<br>
+        who are looking to use available technology<br>
+        for farming.
+    </span>
+  </div>
+        
+
+<!-- Adding Wrapper -->        
+<div class="wrapper">
+            
+        <div class="side-menu">
+          <div class="submenu">
+            <ul>
+                <h2>Sub Menu</h2>
+                <li> <a href="#">Home</a></li>
+                  <li> <a href="#">Service</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                </ul>
+          </div>
+            <div class="info">
+              <img class="info-background" src="dist/img/hk-skyline.jpg"/>
+                <img class="my-picture" src="dist/img/test.png"/>
+                  <div class="info-strings">
+                      <p><b>Name</b>: Chirag Sharma </p>
+                      <p><b>Email</b>:chiragsharma040@gmail.com </p>
+                      <p><b>Phone</b>: +91-9460845778</p>
+                  </div>
+                <div class="enquiry">
+                  <h3> Drop me a Message</h3>
+                      <p text-align="left">Subject</p>
+                     
+                      <input type="text"/>
+                       <br/>
+                         <br/>
+                      <p>Message</p>
+                      <textarea></textarea>
+                      <br/><br/>
+                      <button type="submit">SEND</button>
+            </div>
+
+<!-- Add the responsive map from google Map -->            
+                <div class="map-responsive">
+                    <h3>Meet me at my office</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.97161836654!2d77.0688972038945!3d28.52751980684233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew+Delhi%2C+Delhi!5e0!3m2!1sen!2sin!4v1500879698485" width="250" height="120" frameborder="0" style="border:0" allowfullscreen></iframe>                    
+                    <p> Noida <br>
+                      Sector 71 <br>
+                        India-201301
+                    </p>
+                        
+                </div>
+            </div>  
+        </div>
+
+<!-- Adding Main Content -->
+
+<div class="main-content">       
+        <div id="content-introduction">
+          <h1>Farming is a Profession of Hope</h1> 
+       
+          <h3 id="introduction-para1">
+                Agriculture has been the heart of the India ever since it started. But if we look at the current scenario of the same will find out that it's really miserable. And we would be like "what are we doing?" Are we kept on losing that environment, labor, lack of resources, and many others things? We should be very concerned about these facts and scenarios that may impact in future. So, Let's do whatever it takes to reach out to every farmer.            
+          </h3>
+
+          <p class="introduction-para2">
+            Only with mass production being aided by current technology and dominant marketing exploit both the domestic market as well as the international market to the fullest extent. It is very concerned that the volume of production depends not only on the capital investments and marketing strategies but also on the technical capacity used during the production and processing.
+          </p>
+          <br /> 
+          <div class = "introduction-para2">
+            <div id="quote">
+                <p id="saying"> <b><i> Advances in technology will continue to reach far into every sector of our economy. Future job and economic growth in industry, defense, transportation, agriculture, health care, and life sciences is directly related to scientific advancement.</i></b> </p>
+              <p id="author"> Christopher Bond</p>
+            </div>
+            <p id="normal-info">
+                We know that the fact, technology has come to play a very significant role even in marketing is true. Technology is absolutely critical to the agro industry at the primary (production), secondary (processing) or tertiary (marketing and packaging) stage. And time to time Experts has always suggested that agricultural technology could play a significant role in addressing the issues and concerns relating to the conservation and management of rural resources. </p>
+          </div>
+        </div>
+</div>
+
+<!-- Adding More Articles -->
+<div class="more_articles">
+  <div class="headline">
+               <h3> More in the Series </h3>           
+  </div>
+        <div class="article_rect">
+                   <img src="dist/img/it.png"/>
+                   <h2>Information Technology</h2>
+              
+                   <p> The government is making an effort to bridge this information gap by exploiting advances in Information Technology (IT). This program enables the farmer to cultivate a crop with expertise, as that of an agricultural expert, by disseminating both crop and location specific expert advice in a personalized and timely manner.</p>
+        </div>
+                <div class="article_rect">
+                    <img src="dist/img/irri.png"/>
+                    <h2>Irrigation Technology</h2>                  
+                    <p> Water is undoubtedly the major factors for all irrigation activities, worldwide. Particularly in India, an unpredictable monsoon coupled with an increasing demand for food production (at the self-sustenance as well as commercial levels) has induced an imperative need for irrigation options.</p>
+               </div>
+            </div>
+            
+<!-- Adding Related Articles -->
+
+        <div class="related_articles">
+            <div class="headline">
+            <h3>Related Articles</h3>
+             
+                </div>
+                    
+             <div class="article_square">
+                 <img src="dist/img/teaser-rect-01.jpg"/>
+                 <h2>Product 1</h2>
+                 <p>This is the very first product that I have mentioned.</p>
+                </div>
+                 <div class="article_square">
+                     <img src="dist/img/func.png"/>
+                     <h2>Connect to Buyers</h2>
+                     <p>Let's make it easy to connect to buyers.</p>
+                </div>
+                 <div class="article_square">
+                     <img src="dist/img/teaser-rect-03.jpg"/>
+                     <h2>Menu</h2>
+                     <p>You can choose the product mentioned in the menu.</p>
+                </div>
+                 <div class="article_square">
+                     <img src="dist/img/teaser-rect-04.jpg"/>
+                     <h2>Product 4</h2>
+                     <p>This is the another product that I have mentioned.</p>
+                </div>
+                 <div class="article_square">
+                     <img src="dist/img/teaser-rect-05.jpg"/>
+                     <h2>Product 5</h2>
+                     <p>This is yet another product that I have mentioned.</p>
+                </div>
+          </div>
+
+            <!-- Footer added to the web page-->
+          <div class="footer"> 
+
+          </div>  
+
+
+        </div>  <!-- line no 68 wrapper -->
+    </div>
+
+</div>
+
+  <!-- Use the script for footer to work properly -->    
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+ </body>
+</html>
