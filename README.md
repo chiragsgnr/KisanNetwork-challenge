@@ -3,11 +3,13 @@ Kisan network front end challenge
 
 ## Problem
 
-- Implement the design from the following image [http://bit.ly/frontendimage](http://bit.ly/frontendimage)
+- Implement the design from the following image (http://bit.ly/knfrontend)
+
 
 
 ## Prerequisite
-- BootStrap 3.x/4.x. 
+- BootStrap 3.x.
+- Jquery 3.x
 - Background of HTML, CSS, JavaScript.
 - Works on Linux, Windows
 
